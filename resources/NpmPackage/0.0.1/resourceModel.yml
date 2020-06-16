@@ -8,4 +8,4 @@ configuration:
   destinationArtifactory:
     type: Integration
     validate:
-      isIntegrationtype: Artifactory
+      isIntegrationType: Artifactory
