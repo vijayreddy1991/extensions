@@ -1,5 +1,0 @@
-configuration:
-  testFile:
-    type: String
-  installMocha:
-    type: Boolean
