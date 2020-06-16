@@ -3,7 +3,7 @@ configuration:
     type: String
   boo:
     type: uddt
-userDefinedDatatype:
+userDefinedDataType:
   - type: uddt
     configuration:
       bar:
