@@ -1,0 +1,12 @@
+configuration:
+  foo:
+    type: String
+  boo:
+    type: uddt
+userDefinedDataType:
+  - type: uddt
+    configuration:
+      bar:
+        type: Int
+        validate:
+          max: 10

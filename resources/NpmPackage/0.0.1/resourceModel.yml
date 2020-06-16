@@ -1,0 +1,11 @@
+configuration:
+  name:
+    type: String
+  version:
+    type: String
+  repositoryName:
+    type: String
+  destinationArtifactory:
+    type: Integration
+    validate:
+      isIntegrationtype: Artifactory
