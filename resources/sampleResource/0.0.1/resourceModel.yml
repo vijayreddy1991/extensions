@@ -1,0 +1,7 @@
+configuration:
+  resourceFoo:
+    type: Int
+  resourceList:
+    type: String[]
+    validate:
+      contains: "resource"
