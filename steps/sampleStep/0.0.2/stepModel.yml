@@ -1,6 +1,8 @@
 configuration:
   foo:
     type: String
+    validate:
+      isRegex: "[A-Za-z_][A-Za-z_]+"
   boo:
     type: uddt
 userDefinedDataType:
@@ -10,3 +12,7 @@ userDefinedDataType:
         type: Int
         validate:
           max: 10
+      baz:
+        type: String
+        validate:
+          isUppercase: true
