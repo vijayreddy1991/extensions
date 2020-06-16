@@ -1,6 +1,7 @@
 sampleResource001() {
-  local resourceFoo=$(find_resource_variable "resourceFoo")
-  echo "resourceFoo: $resourceFoo"
+  local resource="%%context.resourceName%%"
+  local foo=$(find_resource_variable "$resource" "resourceFoo")
+  echo "foo: $foo"
 }
 
 execute_command "sampleResource001 %%context.resourceName%%"
