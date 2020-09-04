@@ -2,4 +2,6 @@ configuration:
   test:
     type: Int
 ##     immutable: true
+   test2:
+     type: Int
 
