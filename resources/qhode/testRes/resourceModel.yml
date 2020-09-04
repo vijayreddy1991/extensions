@@ -1,7 +1,7 @@
 configuration:
   test:
     type: Int
-##     immutable: true
+    immutable: true
   test2:
     type: Int
 userDefinedDataType:
