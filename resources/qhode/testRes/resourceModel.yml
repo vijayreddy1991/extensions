@@ -1,5 +1,5 @@
 configuration:
   test:
     type: Int
-#     immutable: true
+##     immutable: true
  
