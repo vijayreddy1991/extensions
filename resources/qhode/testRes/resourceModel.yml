@@ -4,4 +4,10 @@ configuration:
 ##     immutable: true
   test2:
     type: Int
+userDefinedDataType:
+  - type: uddt
+    configuration:
+      bar:
+        type: Int
+        immutable: true
 
