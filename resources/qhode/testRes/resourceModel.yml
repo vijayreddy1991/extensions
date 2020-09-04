@@ -9,5 +9,4 @@ userDefinedDataType:
     configuration:
       bar:
         type: Int
-        immutable: true
 
