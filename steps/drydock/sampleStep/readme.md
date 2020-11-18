@@ -1,4 +1,4 @@
-# Extensions Repo
+Extensions Repo
 
 This is a sample readme.md to check if markdown is working - 
 
